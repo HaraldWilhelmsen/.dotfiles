@@ -1,7 +1,7 @@
 alias vimrc="vim ~/.vimrc"
 alias bashrc="vim ~/.bashrc"
 
-alias msrc="cd ~/Dropbox/prosjekt/"
+alias msrc="cd $MASTER"
 alias mrun="cd ~/hdd/master"
 alias mnewrun="~/.bash_scripts/master_create_new_run.py"
 
