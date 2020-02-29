@@ -1,4 +1,4 @@
-set relativenumber
+set number relativenumber
 set autoindent
 syntax on
 
@@ -12,3 +12,5 @@ highlight LineNr ctermfg=grey
 let fortran_have_tabs=1
 au BufNewFile,BufRead *.py
     \ set tabstop=4 expandtab
+au BufNewFile,BufRead *.tex
+    \ set syntax=context
