@@ -1,0 +1,2 @@
+#!/bin/bash
+(cd /home/harald/Dropbox/Apps/Overleaf/Masteroppgave && latexmk -pdf -g -jobname=./build/currentmain main)
