@@ -9,3 +9,6 @@ alias mwrite='cd ~/Dropbox/Apps/Overleaf/Masteroppgave/'
 
 alias dfi='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias makepdf='latexmk -pdf -g -jobname=./build/currentmain main'
+
+alias ntnuvpn='sudo openconnect vpn.ntnu.no'
+alias nokeys='setxkbmap -layout no -variant winkeys'
